@@ -130,6 +130,129 @@
 		1846BBA31A136E8100ABC529 /* tommath.h in Headers */ = {isa = PBXBuildFile; fileRef = 1846BB291A136E8100ABC529 /* tommath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1846BBA41A136E8100ABC529 /* tommath_class.h in Headers */ = {isa = PBXBuildFile; fileRef = 1846BB2A1A136E8100ABC529 /* tommath_class.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1846BBA51A136E8100ABC529 /* tommath_superclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 1846BB2B1A136E8100ABC529 /* tommath_superclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1846BBFC1A13793A00ABC529 /* LibTomMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 1846BA701A136BCE00ABC529 /* LibTomMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1846BBFD1A13794400ABC529 /* tommath.h in Headers */ = {isa = PBXBuildFile; fileRef = 1846BB291A136E8100ABC529 /* tommath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1846BBFE1A13794400ABC529 /* tommath_class.h in Headers */ = {isa = PBXBuildFile; fileRef = 1846BB2A1A136E8100ABC529 /* tommath_class.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1846BBFF1A13794400ABC529 /* tommath_superclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 1846BB2B1A136E8100ABC529 /* tommath_superclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1846BC001A1379BA00ABC529 /* bn_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAB21A136E8000ABC529 /* bn_error.c */; };
+		1846BC011A1379BA00ABC529 /* bn_fast_mp_invmod.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAB31A136E8000ABC529 /* bn_fast_mp_invmod.c */; };
+		1846BC021A1379BA00ABC529 /* bn_fast_mp_montgomery_reduce.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAB41A136E8000ABC529 /* bn_fast_mp_montgomery_reduce.c */; };
+		1846BC031A1379BA00ABC529 /* bn_fast_s_mp_mul_digs.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAB51A136E8000ABC529 /* bn_fast_s_mp_mul_digs.c */; };
+		1846BC041A1379BA00ABC529 /* bn_fast_s_mp_mul_high_digs.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAB61A136E8000ABC529 /* bn_fast_s_mp_mul_high_digs.c */; };
+		1846BC051A1379BA00ABC529 /* bn_fast_s_mp_sqr.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAB71A136E8000ABC529 /* bn_fast_s_mp_sqr.c */; };
+		1846BC061A1379BA00ABC529 /* bn_mp_2expt.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAB81A136E8000ABC529 /* bn_mp_2expt.c */; };
+		1846BC071A1379BA00ABC529 /* bn_mp_abs.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAB91A136E8000ABC529 /* bn_mp_abs.c */; };
+		1846BC081A1379BA00ABC529 /* bn_mp_add.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BABA1A136E8000ABC529 /* bn_mp_add.c */; };
+		1846BC091A1379BA00ABC529 /* bn_mp_add_d.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BABB1A136E8000ABC529 /* bn_mp_add_d.c */; };
+		1846BC0A1A1379BA00ABC529 /* bn_mp_addmod.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BABC1A136E8000ABC529 /* bn_mp_addmod.c */; };
+		1846BC0B1A1379BA00ABC529 /* bn_mp_and.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BABD1A136E8000ABC529 /* bn_mp_and.c */; };
+		1846BC0C1A1379BA00ABC529 /* bn_mp_clamp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BABE1A136E8000ABC529 /* bn_mp_clamp.c */; };
+		1846BC0D1A1379BA00ABC529 /* bn_mp_clear.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BABF1A136E8000ABC529 /* bn_mp_clear.c */; };
+		1846BC0E1A1379BA00ABC529 /* bn_mp_clear_multi.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAC01A136E8000ABC529 /* bn_mp_clear_multi.c */; };
+		1846BC0F1A1379BA00ABC529 /* bn_mp_cmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAC11A136E8000ABC529 /* bn_mp_cmp.c */; };
+		1846BC101A1379BA00ABC529 /* bn_mp_cmp_d.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAC21A136E8000ABC529 /* bn_mp_cmp_d.c */; };
+		1846BC111A1379BA00ABC529 /* bn_mp_cmp_mag.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAC31A136E8000ABC529 /* bn_mp_cmp_mag.c */; };
+		1846BC121A1379BA00ABC529 /* bn_mp_cnt_lsb.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAC41A136E8000ABC529 /* bn_mp_cnt_lsb.c */; };
+		1846BC131A1379BA00ABC529 /* bn_mp_copy.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAC51A136E8000ABC529 /* bn_mp_copy.c */; };
+		1846BC141A1379BA00ABC529 /* bn_mp_count_bits.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAC61A136E8000ABC529 /* bn_mp_count_bits.c */; };
+		1846BC151A1379BA00ABC529 /* bn_mp_div.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAC71A136E8000ABC529 /* bn_mp_div.c */; };
+		1846BC161A1379BA00ABC529 /* bn_mp_div_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAC81A136E8000ABC529 /* bn_mp_div_2.c */; };
+		1846BC171A1379BA00ABC529 /* bn_mp_div_2d.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAC91A136E8000ABC529 /* bn_mp_div_2d.c */; };
+		1846BC181A1379BA00ABC529 /* bn_mp_div_3.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BACA1A136E8000ABC529 /* bn_mp_div_3.c */; };
+		1846BC191A1379BA00ABC529 /* bn_mp_div_d.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BACB1A136E8000ABC529 /* bn_mp_div_d.c */; };
+		1846BC1A1A1379BA00ABC529 /* bn_mp_dr_is_modulus.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BACC1A136E8000ABC529 /* bn_mp_dr_is_modulus.c */; };
+		1846BC1B1A1379BA00ABC529 /* bn_mp_dr_reduce.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BACD1A136E8000ABC529 /* bn_mp_dr_reduce.c */; };
+		1846BC1C1A1379BA00ABC529 /* bn_mp_dr_setup.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BACE1A136E8000ABC529 /* bn_mp_dr_setup.c */; };
+		1846BC1D1A1379BA00ABC529 /* bn_mp_exch.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BACF1A136E8000ABC529 /* bn_mp_exch.c */; };
+		1846BC1E1A1379BA00ABC529 /* bn_mp_expt_d.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAD01A136E8000ABC529 /* bn_mp_expt_d.c */; };
+		1846BC1F1A1379BA00ABC529 /* bn_mp_exptmod.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAD11A136E8000ABC529 /* bn_mp_exptmod.c */; };
+		1846BC201A1379BA00ABC529 /* bn_mp_exptmod_fast.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAD21A136E8000ABC529 /* bn_mp_exptmod_fast.c */; };
+		1846BC211A1379BA00ABC529 /* bn_mp_exteuclid.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAD31A136E8000ABC529 /* bn_mp_exteuclid.c */; };
+		1846BC221A1379BA00ABC529 /* bn_mp_fread.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAD41A136E8000ABC529 /* bn_mp_fread.c */; };
+		1846BC231A1379BA00ABC529 /* bn_mp_fwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAD51A136E8000ABC529 /* bn_mp_fwrite.c */; };
+		1846BC241A1379BA00ABC529 /* bn_mp_gcd.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAD61A136E8000ABC529 /* bn_mp_gcd.c */; };
+		1846BC251A1379BA00ABC529 /* bn_mp_get_int.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAD71A136E8000ABC529 /* bn_mp_get_int.c */; };
+		1846BC261A1379BA00ABC529 /* bn_mp_grow.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAD81A136E8000ABC529 /* bn_mp_grow.c */; };
+		1846BC271A1379BA00ABC529 /* bn_mp_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAD91A136E8000ABC529 /* bn_mp_init.c */; };
+		1846BC281A1379BA00ABC529 /* bn_mp_init_copy.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BADA1A136E8000ABC529 /* bn_mp_init_copy.c */; };
+		1846BC291A1379BA00ABC529 /* bn_mp_init_multi.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BADB1A136E8000ABC529 /* bn_mp_init_multi.c */; };
+		1846BC2A1A1379BA00ABC529 /* bn_mp_init_set.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BADC1A136E8000ABC529 /* bn_mp_init_set.c */; };
+		1846BC2B1A1379BA00ABC529 /* bn_mp_init_set_int.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BADD1A136E8000ABC529 /* bn_mp_init_set_int.c */; };
+		1846BC2C1A1379BA00ABC529 /* bn_mp_init_size.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BADE1A136E8000ABC529 /* bn_mp_init_size.c */; };
+		1846BC2D1A1379BA00ABC529 /* bn_mp_invmod.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BADF1A136E8000ABC529 /* bn_mp_invmod.c */; };
+		1846BC2E1A1379BA00ABC529 /* bn_mp_invmod_slow.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAE01A136E8000ABC529 /* bn_mp_invmod_slow.c */; };
+		1846BC2F1A1379BA00ABC529 /* bn_mp_is_square.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAE11A136E8000ABC529 /* bn_mp_is_square.c */; };
+		1846BC301A1379BA00ABC529 /* bn_mp_jacobi.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAE21A136E8000ABC529 /* bn_mp_jacobi.c */; };
+		1846BC311A1379BA00ABC529 /* bn_mp_karatsuba_mul.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAE31A136E8000ABC529 /* bn_mp_karatsuba_mul.c */; };
+		1846BC321A1379BA00ABC529 /* bn_mp_karatsuba_sqr.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAE41A136E8000ABC529 /* bn_mp_karatsuba_sqr.c */; };
+		1846BC331A1379BA00ABC529 /* bn_mp_lcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAE51A136E8000ABC529 /* bn_mp_lcm.c */; };
+		1846BC341A1379BA00ABC529 /* bn_mp_lshd.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAE61A136E8000ABC529 /* bn_mp_lshd.c */; };
+		1846BC351A1379BA00ABC529 /* bn_mp_mod.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAE71A136E8000ABC529 /* bn_mp_mod.c */; };
+		1846BC361A1379BA00ABC529 /* bn_mp_mod_2d.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAE81A136E8000ABC529 /* bn_mp_mod_2d.c */; };
+		1846BC371A1379BA00ABC529 /* bn_mp_mod_d.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAE91A136E8000ABC529 /* bn_mp_mod_d.c */; };
+		1846BC381A1379BA00ABC529 /* bn_mp_montgomery_calc_normalization.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAEA1A136E8000ABC529 /* bn_mp_montgomery_calc_normalization.c */; };
+		1846BC391A1379BA00ABC529 /* bn_mp_montgomery_reduce.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAEB1A136E8000ABC529 /* bn_mp_montgomery_reduce.c */; };
+		1846BC3A1A1379BA00ABC529 /* bn_mp_montgomery_setup.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAEC1A136E8000ABC529 /* bn_mp_montgomery_setup.c */; };
+		1846BC3B1A1379BA00ABC529 /* bn_mp_mul.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAED1A136E8000ABC529 /* bn_mp_mul.c */; };
+		1846BC3C1A1379BA00ABC529 /* bn_mp_mul_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAEE1A136E8000ABC529 /* bn_mp_mul_2.c */; };
+		1846BC3D1A1379BA00ABC529 /* bn_mp_mul_2d.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAEF1A136E8000ABC529 /* bn_mp_mul_2d.c */; };
+		1846BC3E1A1379BA00ABC529 /* bn_mp_mul_d.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAF01A136E8000ABC529 /* bn_mp_mul_d.c */; };
+		1846BC3F1A1379BA00ABC529 /* bn_mp_mulmod.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAF11A136E8000ABC529 /* bn_mp_mulmod.c */; };
+		1846BC401A1379BA00ABC529 /* bn_mp_n_root.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAF21A136E8000ABC529 /* bn_mp_n_root.c */; };
+		1846BC411A1379BA00ABC529 /* bn_mp_neg.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAF31A136E8000ABC529 /* bn_mp_neg.c */; };
+		1846BC421A1379BA00ABC529 /* bn_mp_or.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAF41A136E8000ABC529 /* bn_mp_or.c */; };
+		1846BC431A1379BA00ABC529 /* bn_mp_prime_fermat.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAF51A136E8000ABC529 /* bn_mp_prime_fermat.c */; };
+		1846BC441A1379BA00ABC529 /* bn_mp_prime_is_divisible.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAF61A136E8000ABC529 /* bn_mp_prime_is_divisible.c */; };
+		1846BC451A1379BA00ABC529 /* bn_mp_prime_is_prime.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAF71A136E8000ABC529 /* bn_mp_prime_is_prime.c */; };
+		1846BC461A1379BA00ABC529 /* bn_mp_prime_miller_rabin.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAF81A136E8000ABC529 /* bn_mp_prime_miller_rabin.c */; };
+		1846BC471A1379BA00ABC529 /* bn_mp_prime_next_prime.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAF91A136E8000ABC529 /* bn_mp_prime_next_prime.c */; };
+		1846BC481A1379BA00ABC529 /* bn_mp_prime_rabin_miller_trials.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAFA1A136E8000ABC529 /* bn_mp_prime_rabin_miller_trials.c */; };
+		1846BC491A1379BA00ABC529 /* bn_mp_prime_random_ex.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAFB1A136E8000ABC529 /* bn_mp_prime_random_ex.c */; };
+		1846BC4A1A1379BA00ABC529 /* bn_mp_radix_size.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAFC1A136E8000ABC529 /* bn_mp_radix_size.c */; };
+		1846BC4B1A1379BA00ABC529 /* bn_mp_radix_smap.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAFD1A136E8000ABC529 /* bn_mp_radix_smap.c */; };
+		1846BC4C1A1379BA00ABC529 /* bn_mp_rand.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAFE1A136E8000ABC529 /* bn_mp_rand.c */; };
+		1846BC4D1A1379BA00ABC529 /* bn_mp_read_radix.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAFF1A136E8100ABC529 /* bn_mp_read_radix.c */; };
+		1846BC4E1A1379BA00ABC529 /* bn_mp_read_signed_bin.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB001A136E8100ABC529 /* bn_mp_read_signed_bin.c */; };
+		1846BC4F1A1379BA00ABC529 /* bn_mp_read_unsigned_bin.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB011A136E8100ABC529 /* bn_mp_read_unsigned_bin.c */; };
+		1846BC501A1379BA00ABC529 /* bn_mp_reduce.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB021A136E8100ABC529 /* bn_mp_reduce.c */; };
+		1846BC511A1379BA00ABC529 /* bn_mp_reduce_2k.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB031A136E8100ABC529 /* bn_mp_reduce_2k.c */; };
+		1846BC521A1379BA00ABC529 /* bn_mp_reduce_2k_l.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB041A136E8100ABC529 /* bn_mp_reduce_2k_l.c */; };
+		1846BC531A1379BA00ABC529 /* bn_mp_reduce_2k_setup.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB051A136E8100ABC529 /* bn_mp_reduce_2k_setup.c */; };
+		1846BC541A1379BA00ABC529 /* bn_mp_reduce_2k_setup_l.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB061A136E8100ABC529 /* bn_mp_reduce_2k_setup_l.c */; };
+		1846BC551A1379BA00ABC529 /* bn_mp_reduce_is_2k.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB071A136E8100ABC529 /* bn_mp_reduce_is_2k.c */; };
+		1846BC561A1379BA00ABC529 /* bn_mp_reduce_is_2k_l.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB081A136E8100ABC529 /* bn_mp_reduce_is_2k_l.c */; };
+		1846BC571A1379BA00ABC529 /* bn_mp_reduce_setup.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB091A136E8100ABC529 /* bn_mp_reduce_setup.c */; };
+		1846BC581A1379BA00ABC529 /* bn_mp_rshd.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB0A1A136E8100ABC529 /* bn_mp_rshd.c */; };
+		1846BC591A1379BA00ABC529 /* bn_mp_set.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB0B1A136E8100ABC529 /* bn_mp_set.c */; };
+		1846BC5A1A1379BA00ABC529 /* bn_mp_set_int.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB0C1A136E8100ABC529 /* bn_mp_set_int.c */; };
+		1846BC5B1A1379BA00ABC529 /* bn_mp_shrink.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB0D1A136E8100ABC529 /* bn_mp_shrink.c */; };
+		1846BC5C1A1379BA00ABC529 /* bn_mp_signed_bin_size.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB0E1A136E8100ABC529 /* bn_mp_signed_bin_size.c */; };
+		1846BC5D1A1379BA00ABC529 /* bn_mp_sqr.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB0F1A136E8100ABC529 /* bn_mp_sqr.c */; };
+		1846BC5E1A1379BA00ABC529 /* bn_mp_sqrmod.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB101A136E8100ABC529 /* bn_mp_sqrmod.c */; };
+		1846BC5F1A1379BA00ABC529 /* bn_mp_sqrt.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB111A136E8100ABC529 /* bn_mp_sqrt.c */; };
+		1846BC601A1379BA00ABC529 /* bn_mp_sub.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB121A136E8100ABC529 /* bn_mp_sub.c */; };
+		1846BC611A1379BA00ABC529 /* bn_mp_sub_d.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB131A136E8100ABC529 /* bn_mp_sub_d.c */; };
+		1846BC621A1379BA00ABC529 /* bn_mp_submod.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB141A136E8100ABC529 /* bn_mp_submod.c */; };
+		1846BC631A1379BA00ABC529 /* bn_mp_to_signed_bin.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB151A136E8100ABC529 /* bn_mp_to_signed_bin.c */; };
+		1846BC641A1379BA00ABC529 /* bn_mp_to_signed_bin_n.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB161A136E8100ABC529 /* bn_mp_to_signed_bin_n.c */; };
+		1846BC651A1379BA00ABC529 /* bn_mp_to_unsigned_bin.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB171A136E8100ABC529 /* bn_mp_to_unsigned_bin.c */; };
+		1846BC661A1379BA00ABC529 /* bn_mp_to_unsigned_bin_n.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB181A136E8100ABC529 /* bn_mp_to_unsigned_bin_n.c */; };
+		1846BC671A1379BA00ABC529 /* bn_mp_toom_mul.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB191A136E8100ABC529 /* bn_mp_toom_mul.c */; };
+		1846BC681A1379BA00ABC529 /* bn_mp_toom_sqr.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB1A1A136E8100ABC529 /* bn_mp_toom_sqr.c */; };
+		1846BC691A1379BA00ABC529 /* bn_mp_toradix.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB1B1A136E8100ABC529 /* bn_mp_toradix.c */; };
+		1846BC6A1A1379BA00ABC529 /* bn_mp_toradix_n.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB1C1A136E8100ABC529 /* bn_mp_toradix_n.c */; };
+		1846BC6B1A1379BA00ABC529 /* bn_mp_unsigned_bin_size.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB1D1A136E8100ABC529 /* bn_mp_unsigned_bin_size.c */; };
+		1846BC6C1A1379BA00ABC529 /* bn_mp_xor.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB1E1A136E8100ABC529 /* bn_mp_xor.c */; };
+		1846BC6D1A1379BA00ABC529 /* bn_mp_zero.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB1F1A136E8100ABC529 /* bn_mp_zero.c */; };
+		1846BC6E1A1379BA00ABC529 /* bn_prime_tab.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB201A136E8100ABC529 /* bn_prime_tab.c */; };
+		1846BC6F1A1379BA00ABC529 /* bn_reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB211A136E8100ABC529 /* bn_reverse.c */; };
+		1846BC701A1379BA00ABC529 /* bn_s_mp_add.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB221A136E8100ABC529 /* bn_s_mp_add.c */; };
+		1846BC711A1379BA00ABC529 /* bn_s_mp_exptmod.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB231A136E8100ABC529 /* bn_s_mp_exptmod.c */; };
+		1846BC721A1379BA00ABC529 /* bn_s_mp_mul_digs.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB241A136E8100ABC529 /* bn_s_mp_mul_digs.c */; };
+		1846BC731A1379BA00ABC529 /* bn_s_mp_mul_high_digs.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB251A136E8100ABC529 /* bn_s_mp_mul_high_digs.c */; };
+		1846BC741A1379BA00ABC529 /* bn_s_mp_sqr.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB261A136E8100ABC529 /* bn_s_mp_sqr.c */; };
+		1846BC751A1379BA00ABC529 /* bn_s_mp_sub.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB271A136E8100ABC529 /* bn_s_mp_sub.c */; };
+		1846BC761A1379BA00ABC529 /* bncore.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB281A136E8100ABC529 /* bncore.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -258,10 +381,20 @@
 		1846BB291A136E8100ABC529 /* tommath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tommath.h; sourceTree = "<group>"; };
 		1846BB2A1A136E8100ABC529 /* tommath_class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tommath_class.h; sourceTree = "<group>"; };
 		1846BB2B1A136E8100ABC529 /* tommath_superclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tommath_superclass.h; sourceTree = "<group>"; };
+		1846BBE31A1378DD00ABC529 /* LibTomMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibTomMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1846BBE61A1378DE00ABC529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1846BBE71A1378DE00ABC529 /* LibTomMath(OSX).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LibTomMath(OSX).h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1846BA671A136BCE00ABC529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1846BBDF1A1378DD00ABC529 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,6 +410,7 @@
 				1846BA701A136BCE00ABC529 /* LibTomMath.h */,
 				1846BA6F1A136BCE00ABC529 /* Info.plist */,
 				1846BAB11A136E8000ABC529 /* lib */,
+				1846BBE41A1378DE00ABC529 /* LibTomMath(OSX) */,
 				1846BA6C1A136BCE00ABC529 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -285,6 +419,7 @@
 			isa = PBXGroup;
 			children = (
 				1846BA6B1A136BCE00ABC529 /* LibTomMath.framework */,
+				1846BBE31A1378DD00ABC529 /* LibTomMath.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -418,6 +553,15 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		1846BBE41A1378DE00ABC529 /* LibTomMath(OSX) */ = {
+			isa = PBXGroup;
+			children = (
+				1846BBE71A1378DE00ABC529 /* LibTomMath(OSX).h */,
+				1846BBE61A1378DE00ABC529 /* Info.plist */,
+			);
+			path = "LibTomMath(OSX)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -429,6 +573,17 @@
 				1846BA711A136BCE00ABC529 /* LibTomMath.h in Headers */,
 				1846BBA31A136E8100ABC529 /* tommath.h in Headers */,
 				1846BBA41A136E8100ABC529 /* tommath_class.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1846BBE01A1378DD00ABC529 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1846BBFF1A13794400ABC529 /* tommath_superclass.h in Headers */,
+				1846BBFC1A13793A00ABC529 /* LibTomMath.h in Headers */,
+				1846BBFD1A13794400ABC529 /* tommath.h in Headers */,
+				1846BBFE1A13794400ABC529 /* tommath_class.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +608,24 @@
 			productReference = 1846BA6B1A136BCE00ABC529 /* LibTomMath.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		1846BBE21A1378DD00ABC529 /* LibTomMath(OSX) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1846BBF61A1378DE00ABC529 /* Build configuration list for PBXNativeTarget "LibTomMath(OSX)" */;
+			buildPhases = (
+				1846BBDE1A1378DD00ABC529 /* Sources */,
+				1846BBDF1A1378DD00ABC529 /* Frameworks */,
+				1846BBE01A1378DD00ABC529 /* Headers */,
+				1846BBE11A1378DD00ABC529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LibTomMath(OSX)";
+			productName = "LibTomMath(OSX)";
+			productReference = 1846BBE31A1378DD00ABC529 /* LibTomMath.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -463,6 +636,9 @@
 				ORGANIZATIONNAME = "Jānis Kiršteins";
 				TargetAttributes = {
 					1846BA6A1A136BCE00ABC529 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					1846BBE21A1378DD00ABC529 = {
 						CreatedOnToolsVersion = 6.1;
 					};
 				};
@@ -480,12 +656,20 @@
 			projectRoot = "";
 			targets = (
 				1846BA6A1A136BCE00ABC529 /* LibTomMath */,
+				1846BBE21A1378DD00ABC529 /* LibTomMath(OSX) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1846BA691A136BCE00ABC529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1846BBE11A1378DD00ABC529 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -621,6 +805,132 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1846BBDE1A1378DD00ABC529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1846BC0D1A1379BA00ABC529 /* bn_mp_clear.c in Sources */,
+				1846BC161A1379BA00ABC529 /* bn_mp_div_2.c in Sources */,
+				1846BC5A1A1379BA00ABC529 /* bn_mp_set_int.c in Sources */,
+				1846BC6E1A1379BA00ABC529 /* bn_prime_tab.c in Sources */,
+				1846BC4B1A1379BA00ABC529 /* bn_mp_radix_smap.c in Sources */,
+				1846BC2C1A1379BA00ABC529 /* bn_mp_init_size.c in Sources */,
+				1846BC341A1379BA00ABC529 /* bn_mp_lshd.c in Sources */,
+				1846BC1A1A1379BA00ABC529 /* bn_mp_dr_is_modulus.c in Sources */,
+				1846BC6F1A1379BA00ABC529 /* bn_reverse.c in Sources */,
+				1846BC041A1379BA00ABC529 /* bn_fast_s_mp_mul_high_digs.c in Sources */,
+				1846BC641A1379BA00ABC529 /* bn_mp_to_signed_bin_n.c in Sources */,
+				1846BC001A1379BA00ABC529 /* bn_error.c in Sources */,
+				1846BC261A1379BA00ABC529 /* bn_mp_grow.c in Sources */,
+				1846BC281A1379BA00ABC529 /* bn_mp_init_copy.c in Sources */,
+				1846BC381A1379BA00ABC529 /* bn_mp_montgomery_calc_normalization.c in Sources */,
+				1846BC181A1379BA00ABC529 /* bn_mp_div_3.c in Sources */,
+				1846BC131A1379BA00ABC529 /* bn_mp_copy.c in Sources */,
+				1846BC491A1379BA00ABC529 /* bn_mp_prime_random_ex.c in Sources */,
+				1846BC691A1379BA00ABC529 /* bn_mp_toradix.c in Sources */,
+				1846BC1E1A1379BA00ABC529 /* bn_mp_expt_d.c in Sources */,
+				1846BC531A1379BA00ABC529 /* bn_mp_reduce_2k_setup.c in Sources */,
+				1846BC5B1A1379BA00ABC529 /* bn_mp_shrink.c in Sources */,
+				1846BC571A1379BA00ABC529 /* bn_mp_reduce_setup.c in Sources */,
+				1846BC481A1379BA00ABC529 /* bn_mp_prime_rabin_miller_trials.c in Sources */,
+				1846BC701A1379BA00ABC529 /* bn_s_mp_add.c in Sources */,
+				1846BC6C1A1379BA00ABC529 /* bn_mp_xor.c in Sources */,
+				1846BC0B1A1379BA00ABC529 /* bn_mp_and.c in Sources */,
+				1846BC461A1379BA00ABC529 /* bn_mp_prime_miller_rabin.c in Sources */,
+				1846BC311A1379BA00ABC529 /* bn_mp_karatsuba_mul.c in Sources */,
+				1846BC681A1379BA00ABC529 /* bn_mp_toom_sqr.c in Sources */,
+				1846BC191A1379BA00ABC529 /* bn_mp_div_d.c in Sources */,
+				1846BC0A1A1379BA00ABC529 /* bn_mp_addmod.c in Sources */,
+				1846BC401A1379BA00ABC529 /* bn_mp_n_root.c in Sources */,
+				1846BC471A1379BA00ABC529 /* bn_mp_prime_next_prime.c in Sources */,
+				1846BC4D1A1379BA00ABC529 /* bn_mp_read_radix.c in Sources */,
+				1846BC011A1379BA00ABC529 /* bn_fast_mp_invmod.c in Sources */,
+				1846BC651A1379BA00ABC529 /* bn_mp_to_unsigned_bin.c in Sources */,
+				1846BC291A1379BA00ABC529 /* bn_mp_init_multi.c in Sources */,
+				1846BC441A1379BA00ABC529 /* bn_mp_prime_is_divisible.c in Sources */,
+				1846BC661A1379BA00ABC529 /* bn_mp_to_unsigned_bin_n.c in Sources */,
+				1846BC4C1A1379BA00ABC529 /* bn_mp_rand.c in Sources */,
+				1846BC741A1379BA00ABC529 /* bn_s_mp_sqr.c in Sources */,
+				1846BC5E1A1379BA00ABC529 /* bn_mp_sqrmod.c in Sources */,
+				1846BC241A1379BA00ABC529 /* bn_mp_gcd.c in Sources */,
+				1846BC611A1379BA00ABC529 /* bn_mp_sub_d.c in Sources */,
+				1846BC6B1A1379BA00ABC529 /* bn_mp_unsigned_bin_size.c in Sources */,
+				1846BC1F1A1379BA00ABC529 /* bn_mp_exptmod.c in Sources */,
+				1846BC711A1379BA00ABC529 /* bn_s_mp_exptmod.c in Sources */,
+				1846BC4E1A1379BA00ABC529 /* bn_mp_read_signed_bin.c in Sources */,
+				1846BC371A1379BA00ABC529 /* bn_mp_mod_d.c in Sources */,
+				1846BC2E1A1379BA00ABC529 /* bn_mp_invmod_slow.c in Sources */,
+				1846BC5C1A1379BA00ABC529 /* bn_mp_signed_bin_size.c in Sources */,
+				1846BC1C1A1379BA00ABC529 /* bn_mp_dr_setup.c in Sources */,
+				1846BC451A1379BA00ABC529 /* bn_mp_prime_is_prime.c in Sources */,
+				1846BC3F1A1379BA00ABC529 /* bn_mp_mulmod.c in Sources */,
+				1846BC3A1A1379BA00ABC529 /* bn_mp_montgomery_setup.c in Sources */,
+				1846BC221A1379BA00ABC529 /* bn_mp_fread.c in Sources */,
+				1846BC601A1379BA00ABC529 /* bn_mp_sub.c in Sources */,
+				1846BC091A1379BA00ABC529 /* bn_mp_add_d.c in Sources */,
+				1846BC0F1A1379BA00ABC529 /* bn_mp_cmp.c in Sources */,
+				1846BC1D1A1379BA00ABC529 /* bn_mp_exch.c in Sources */,
+				1846BC051A1379BA00ABC529 /* bn_fast_s_mp_sqr.c in Sources */,
+				1846BC061A1379BA00ABC529 /* bn_mp_2expt.c in Sources */,
+				1846BC751A1379BA00ABC529 /* bn_s_mp_sub.c in Sources */,
+				1846BC3C1A1379BA00ABC529 /* bn_mp_mul_2.c in Sources */,
+				1846BC5F1A1379BA00ABC529 /* bn_mp_sqrt.c in Sources */,
+				1846BC251A1379BA00ABC529 /* bn_mp_get_int.c in Sources */,
+				1846BC411A1379BA00ABC529 /* bn_mp_neg.c in Sources */,
+				1846BC3D1A1379BA00ABC529 /* bn_mp_mul_2d.c in Sources */,
+				1846BC0C1A1379BA00ABC529 /* bn_mp_clamp.c in Sources */,
+				1846BC621A1379BA00ABC529 /* bn_mp_submod.c in Sources */,
+				1846BC6A1A1379BA00ABC529 /* bn_mp_toradix_n.c in Sources */,
+				1846BC121A1379BA00ABC529 /* bn_mp_cnt_lsb.c in Sources */,
+				1846BC071A1379BA00ABC529 /* bn_mp_abs.c in Sources */,
+				1846BC151A1379BA00ABC529 /* bn_mp_div.c in Sources */,
+				1846BC501A1379BA00ABC529 /* bn_mp_reduce.c in Sources */,
+				1846BC6D1A1379BA00ABC529 /* bn_mp_zero.c in Sources */,
+				1846BC031A1379BA00ABC529 /* bn_fast_s_mp_mul_digs.c in Sources */,
+				1846BC0E1A1379BA00ABC529 /* bn_mp_clear_multi.c in Sources */,
+				1846BC171A1379BA00ABC529 /* bn_mp_div_2d.c in Sources */,
+				1846BC631A1379BA00ABC529 /* bn_mp_to_signed_bin.c in Sources */,
+				1846BC2A1A1379BA00ABC529 /* bn_mp_init_set.c in Sources */,
+				1846BC3E1A1379BA00ABC529 /* bn_mp_mul_d.c in Sources */,
+				1846BC721A1379BA00ABC529 /* bn_s_mp_mul_digs.c in Sources */,
+				1846BC2B1A1379BA00ABC529 /* bn_mp_init_set_int.c in Sources */,
+				1846BC3B1A1379BA00ABC529 /* bn_mp_mul.c in Sources */,
+				1846BC361A1379BA00ABC529 /* bn_mp_mod_2d.c in Sources */,
+				1846BC391A1379BA00ABC529 /* bn_mp_montgomery_reduce.c in Sources */,
+				1846BC141A1379BA00ABC529 /* bn_mp_count_bits.c in Sources */,
+				1846BC431A1379BA00ABC529 /* bn_mp_prime_fermat.c in Sources */,
+				1846BC201A1379BA00ABC529 /* bn_mp_exptmod_fast.c in Sources */,
+				1846BC101A1379BA00ABC529 /* bn_mp_cmp_d.c in Sources */,
+				1846BC351A1379BA00ABC529 /* bn_mp_mod.c in Sources */,
+				1846BC111A1379BA00ABC529 /* bn_mp_cmp_mag.c in Sources */,
+				1846BC511A1379BA00ABC529 /* bn_mp_reduce_2k.c in Sources */,
+				1846BC231A1379BA00ABC529 /* bn_mp_fwrite.c in Sources */,
+				1846BC591A1379BA00ABC529 /* bn_mp_set.c in Sources */,
+				1846BC2F1A1379BA00ABC529 /* bn_mp_is_square.c in Sources */,
+				1846BC331A1379BA00ABC529 /* bn_mp_lcm.c in Sources */,
+				1846BC541A1379BA00ABC529 /* bn_mp_reduce_2k_setup_l.c in Sources */,
+				1846BC4F1A1379BA00ABC529 /* bn_mp_read_unsigned_bin.c in Sources */,
+				1846BC671A1379BA00ABC529 /* bn_mp_toom_mul.c in Sources */,
+				1846BC211A1379BA00ABC529 /* bn_mp_exteuclid.c in Sources */,
+				1846BC421A1379BA00ABC529 /* bn_mp_or.c in Sources */,
+				1846BC271A1379BA00ABC529 /* bn_mp_init.c in Sources */,
+				1846BC4A1A1379BA00ABC529 /* bn_mp_radix_size.c in Sources */,
+				1846BC761A1379BA00ABC529 /* bncore.c in Sources */,
+				1846BC731A1379BA00ABC529 /* bn_s_mp_mul_high_digs.c in Sources */,
+				1846BC321A1379BA00ABC529 /* bn_mp_karatsuba_sqr.c in Sources */,
+				1846BC021A1379BA00ABC529 /* bn_fast_mp_montgomery_reduce.c in Sources */,
+				1846BC521A1379BA00ABC529 /* bn_mp_reduce_2k_l.c in Sources */,
+				1846BC551A1379BA00ABC529 /* bn_mp_reduce_is_2k.c in Sources */,
+				1846BC5D1A1379BA00ABC529 /* bn_mp_sqr.c in Sources */,
+				1846BC561A1379BA00ABC529 /* bn_mp_reduce_is_2k_l.c in Sources */,
+				1846BC2D1A1379BA00ABC529 /* bn_mp_invmod.c in Sources */,
+				1846BC581A1379BA00ABC529 /* bn_mp_rshd.c in Sources */,
+				1846BC1B1A1379BA00ABC529 /* bn_mp_dr_reduce.c in Sources */,
+				1846BC081A1379BA00ABC529 /* bn_mp_add.c in Sources */,
+				1846BC301A1379BA00ABC529 /* bn_mp_jacobi.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -740,6 +1050,49 @@
 			};
 			name = Release;
 		};
+		1846BBF71A1378DE00ABC529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LibTomMath(OSX)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = LibTomMath;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1846BBF81A1378DE00ABC529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "LibTomMath(OSX)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = LibTomMath;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -757,6 +1110,14 @@
 			buildConfigurations = (
 				1846BA821A136BCE00ABC529 /* Debug */,
 				1846BA831A136BCE00ABC529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1846BBF61A1378DE00ABC529 /* Build configuration list for PBXNativeTarget "LibTomMath(OSX)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1846BBF71A1378DE00ABC529 /* Debug */,
+				1846BBF81A1378DE00ABC529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Jānis Kiršteins. All rights reserved.
 //
 
-import UIKit
+//import Foundaution
 import XCTest
 import BigInteger
 
