@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1846BA9D1A136C8800ABC529 /* BigInteger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1846BA911A136C8800ABC529 /* BigInteger.framework */; };
-		1846BAA41A136C8800ABC529 /* BigIntegerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAA31A136C8800ABC529 /* BigIntegerTests.swift */; };
+		1846BAB01A136DAF00ABC529 /* BigIntegerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846BAAF1A136DAF00ABC529 /* BigIntegerTests.swift */; };
+		1846BBA91A136EBF00ABC529 /* BigInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846BBA61A136EBF00ABC529 /* BigInteger.swift */; };
+		1846BBAA1A136EBF00ABC529 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846BBA71A136EBF00ABC529 /* Operators.swift */; };
+		1846BBAB1A136EBF00ABC529 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846BBA81A136EBF00ABC529 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +29,10 @@
 		1846BA951A136C8800ABC529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1846BA9C1A136C8800ABC529 /* BigIntegerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigIntegerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1846BAA21A136C8800ABC529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1846BAA31A136C8800ABC529 /* BigIntegerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigIntegerTests.swift; sourceTree = "<group>"; };
+		1846BAAF1A136DAF00ABC529 /* BigIntegerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BigIntegerTests.swift; path = ../../Tests/BigIntegerTests.swift; sourceTree = "<group>"; };
+		1846BBA61A136EBF00ABC529 /* BigInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BigInteger.swift; path = ../../Source/BigInteger.swift; sourceTree = "<group>"; };
+		1846BBA71A136EBF00ABC529 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = ../../Source/Operators.swift; sourceTree = "<group>"; };
+		1846BBA81A136EBF00ABC529 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = ../../Source/Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,9 @@
 		1846BA931A136C8800ABC529 /* BigInteger */ = {
 			isa = PBXGroup;
 			children = (
+				1846BBA61A136EBF00ABC529 /* BigInteger.swift */,
+				1846BBA71A136EBF00ABC529 /* Operators.swift */,
+				1846BBA81A136EBF00ABC529 /* Utils.swift */,
 				1846BA941A136C8800ABC529 /* Supporting Files */,
 			);
 			path = BigInteger;
@@ -85,7 +94,7 @@
 		1846BAA01A136C8800ABC529 /* BigIntegerTests */ = {
 			isa = PBXGroup;
 			children = (
-				1846BAA31A136C8800ABC529 /* BigIntegerTests.swift */,
+				1846BAAF1A136DAF00ABC529 /* BigIntegerTests.swift */,
 				1846BAA11A136C8800ABC529 /* Supporting Files */,
 			);
 			path = BigIntegerTests;
@@ -205,6 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1846BBA91A136EBF00ABC529 /* BigInteger.swift in Sources */,
+				1846BBAA1A136EBF00ABC529 /* Operators.swift in Sources */,
+				1846BBAB1A136EBF00ABC529 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1846BAA41A136C8800ABC529 /* BigIntegerTests.swift in Sources */,
+				1846BAB01A136DAF00ABC529 /* BigIntegerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +327,7 @@
 		1846BAA81A136C8800ABC529 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -324,12 +337,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		1846BAA91A136C8800ABC529 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -345,6 +360,7 @@
 		1846BAAB1A136C8800ABC529 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -356,12 +372,14 @@
 				INFOPLIST_FILE = BigIntegerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		1846BAAC1A136C8800ABC529 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
