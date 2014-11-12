@@ -8,7 +8,7 @@
 
 import LibTomMath
 
-private extension mp_int {
+extension mp_int {
     init() {
         self = mp_int(used: 0, alloc: 0, sign: 0, dp: nil)
     }
@@ -303,7 +303,7 @@ extension BigInteger: Hashable {
 // MARK: - NSCoding
 
 extension BigInteger: NSCoding {
-    private struct Keys {
+    struct Keys {
         static let dp = "dp"
         static let alloc = "alloc"
         static let used = "used"

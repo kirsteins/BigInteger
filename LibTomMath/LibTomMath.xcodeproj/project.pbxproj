@@ -127,9 +127,9 @@
 		1846BBA01A136E8100ABC529 /* bn_s_mp_sqr.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB261A136E8100ABC529 /* bn_s_mp_sqr.c */; };
 		1846BBA11A136E8100ABC529 /* bn_s_mp_sub.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB271A136E8100ABC529 /* bn_s_mp_sub.c */; };
 		1846BBA21A136E8100ABC529 /* bncore.c in Sources */ = {isa = PBXBuildFile; fileRef = 1846BB281A136E8100ABC529 /* bncore.c */; };
-		1846BBA31A136E8100ABC529 /* tommath.h in Headers */ = {isa = PBXBuildFile; fileRef = 1846BB291A136E8100ABC529 /* tommath.h */; };
-		1846BBA41A136E8100ABC529 /* tommath_class.h in Headers */ = {isa = PBXBuildFile; fileRef = 1846BB2A1A136E8100ABC529 /* tommath_class.h */; };
-		1846BBA51A136E8100ABC529 /* tommath_superclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 1846BB2B1A136E8100ABC529 /* tommath_superclass.h */; };
+		1846BBA31A136E8100ABC529 /* tommath.h in Headers */ = {isa = PBXBuildFile; fileRef = 1846BB291A136E8100ABC529 /* tommath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1846BBA41A136E8100ABC529 /* tommath_class.h in Headers */ = {isa = PBXBuildFile; fileRef = 1846BB2A1A136E8100ABC529 /* tommath_class.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1846BBA51A136E8100ABC529 /* tommath_superclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 1846BB2B1A136E8100ABC529 /* tommath_superclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -274,9 +274,9 @@
 		1846BA611A136BCE00ABC529 = {
 			isa = PBXGroup;
 			children = (
-				1846BAB11A136E8000ABC529 /* lib */,
 				1846BA701A136BCE00ABC529 /* LibTomMath.h */,
 				1846BA6F1A136BCE00ABC529 /* Info.plist */,
+				1846BAB11A136E8000ABC529 /* lib */,
 				1846BA6C1A136BCE00ABC529 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -644,6 +644,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -689,6 +690,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

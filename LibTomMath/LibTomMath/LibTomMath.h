@@ -6,14 +6,11 @@
 //  Copyright (c) 2014 Jānis Kiršteins. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-//! Project version number for LibTomMath.
 FOUNDATION_EXPORT double LibTomMathVersionNumber;
-
-//! Project version string for LibTomMath.
 FOUNDATION_EXPORT const unsigned char LibTomMathVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <LibTomMath/PublicHeader.h>
-
-
+#import "tommath.h"
+#import "tommath_class.h"
+#import "tommath_superclass.h"
