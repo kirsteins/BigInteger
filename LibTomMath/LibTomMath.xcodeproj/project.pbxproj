@@ -383,7 +383,6 @@
 		1846BB2B1A136E8100ABC529 /* tommath_superclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tommath_superclass.h; sourceTree = "<group>"; };
 		1846BBE31A1378DD00ABC529 /* LibTomMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibTomMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1846BBE61A1378DE00ABC529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1846BBE71A1378DE00ABC529 /* LibTomMath(OSX).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LibTomMath(OSX).h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -408,8 +407,8 @@
 			isa = PBXGroup;
 			children = (
 				1846BA701A136BCE00ABC529 /* LibTomMath.h */,
-				1846BA6F1A136BCE00ABC529 /* Info.plist */,
 				1846BAB11A136E8000ABC529 /* lib */,
+				1846BC7D1A137AAE00ABC529 /* LibTomMath(iOS) */,
 				1846BBE41A1378DE00ABC529 /* LibTomMath(OSX) */,
 				1846BA6C1A136BCE00ABC529 /* Products */,
 			);
@@ -556,10 +555,17 @@
 		1846BBE41A1378DE00ABC529 /* LibTomMath(OSX) */ = {
 			isa = PBXGroup;
 			children = (
-				1846BBE71A1378DE00ABC529 /* LibTomMath(OSX).h */,
 				1846BBE61A1378DE00ABC529 /* Info.plist */,
 			);
 			path = "LibTomMath(OSX)";
+			sourceTree = "<group>";
+		};
+		1846BC7D1A137AAE00ABC529 /* LibTomMath(iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				1846BA6F1A136BCE00ABC529 /* Info.plist */,
+			);
+			name = "LibTomMath(iOS)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

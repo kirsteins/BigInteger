@@ -70,17 +70,16 @@
 		1846BA911A136C8800ABC529 /* BigInteger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BigInteger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1846BA951A136C8800ABC529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1846BA9C1A136C8800ABC529 /* BigIntegerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigIntegerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1846BAA21A136C8800ABC529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1846BAA21A136C8800ABC529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = BigIntegerTests/Info.plist; sourceTree = SOURCE_ROOT; };
 		1846BAAF1A136DAF00ABC529 /* BigIntegerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BigIntegerTests.swift; path = ../../Tests/BigIntegerTests.swift; sourceTree = "<group>"; };
 		1846BBA61A136EBF00ABC529 /* BigInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BigInteger.swift; path = ../../Source/BigInteger.swift; sourceTree = "<group>"; };
 		1846BBA71A136EBF00ABC529 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = ../../Source/Operators.swift; sourceTree = "<group>"; };
 		1846BBA81A136EBF00ABC529 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = ../../Source/Utils.swift; sourceTree = "<group>"; };
 		1846BBAE1A13705800ABC529 /* LibTomMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LibTomMath.xcodeproj; path = ../LibTomMath/LibTomMath.xcodeproj; sourceTree = "<group>"; };
 		1846BBBD1A13765900ABC529 /* BigInteger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BigInteger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1846BBC01A13765900ABC529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1846BBC01A13765900ABC529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "BigInteger(OSX)/Info.plist"; sourceTree = SOURCE_ROOT; };
 		1846BBC71A13765900ABC529 /* BigInteger(OSX)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BigInteger(OSX)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1846BBCD1A13765900ABC529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1846BBCE1A13765900ABC529 /* BigInteger_OSX_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigInteger_OSX_Tests.swift; sourceTree = "<group>"; };
+		1846BBCD1A13765900ABC529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../BigInteger(OSX)Tests/Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,9 +123,7 @@
 			children = (
 				1846BBAE1A13705800ABC529 /* LibTomMath.xcodeproj */,
 				1846BA931A136C8800ABC529 /* BigInteger */,
-				1846BAA01A136C8800ABC529 /* BigIntegerTests */,
-				1846BBBE1A13765900ABC529 /* BigInteger(OSX) */,
-				1846BBCB1A13765900ABC529 /* BigInteger(OSX)Tests */,
+				1846BAA01A136C8800ABC529 /* Tests */,
 				1846BA921A136C8800ABC529 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -145,37 +142,24 @@
 		1846BA931A136C8800ABC529 /* BigInteger */ = {
 			isa = PBXGroup;
 			children = (
+				1846BC7E1A137B3100ABC529 /* iOS */,
+				1846BC7F1A137B3B00ABC529 /* OSX */,
 				1846BBA61A136EBF00ABC529 /* BigInteger.swift */,
 				1846BBA71A136EBF00ABC529 /* Operators.swift */,
 				1846BBA81A136EBF00ABC529 /* Utils.swift */,
-				1846BA941A136C8800ABC529 /* Supporting Files */,
 			);
 			path = BigInteger;
 			sourceTree = "<group>";
 		};
-		1846BA941A136C8800ABC529 /* Supporting Files */ = {
+		1846BAA01A136C8800ABC529 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				1846BA951A136C8800ABC529 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1846BAA01A136C8800ABC529 /* BigIntegerTests */ = {
-			isa = PBXGroup;
-			children = (
+				1846BC801A137BFA00ABC529 /* iOS */,
+				1846BC811A137C0400ABC529 /* OSX */,
 				1846BAAF1A136DAF00ABC529 /* BigIntegerTests.swift */,
-				1846BAA11A136C8800ABC529 /* Supporting Files */,
 			);
+			name = Tests;
 			path = BigIntegerTests;
-			sourceTree = "<group>";
-		};
-		1846BAA11A136C8800ABC529 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1846BAA21A136C8800ABC529 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		1846BBAF1A13705800ABC529 /* Products */ = {
@@ -187,29 +171,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1846BBBE1A13765900ABC529 /* BigInteger(OSX) */ = {
+		1846BC7E1A137B3100ABC529 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1846BA951A136C8800ABC529 /* Info.plist */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1846BC7F1A137B3B00ABC529 /* OSX */ = {
 			isa = PBXGroup;
 			children = (
 				1846BBC01A13765900ABC529 /* Info.plist */,
 			);
-			path = "BigInteger(OSX)";
+			name = OSX;
 			sourceTree = "<group>";
 		};
-		1846BBCB1A13765900ABC529 /* BigInteger(OSX)Tests */ = {
+		1846BC801A137BFA00ABC529 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1846BAA21A136C8800ABC529 /* Info.plist */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1846BC811A137C0400ABC529 /* OSX */ = {
 			isa = PBXGroup;
 			children = (
 				1846BBCD1A13765900ABC529 /* Info.plist */,
-				1846BBCE1A13765900ABC529 /* BigInteger_OSX_Tests.swift */,
-				1846BBCC1A13765900ABC529 /* Supporting Files */,
 			);
-			path = "BigInteger(OSX)Tests";
-			sourceTree = "<group>";
-		};
-		1846BBCC1A13765900ABC529 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Supporting Files";
+			name = OSX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
