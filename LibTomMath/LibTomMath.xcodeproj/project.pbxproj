@@ -257,7 +257,7 @@
 
 /* Begin PBXFileReference section */
 		1846BA6B1A136BCE00ABC529 /* LibTomMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibTomMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1846BA6F1A136BCE00ABC529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = LibTomMath/Info.plist; sourceTree = "<group>"; };
+		1846BA6F1A136BCE00ABC529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1846BA701A136BCE00ABC529 /* LibTomMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LibTomMath.h; path = LibTomMath/LibTomMath.h; sourceTree = "<group>"; };
 		1846BAB21A136E8000ABC529 /* bn_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_error.c; sourceTree = "<group>"; };
 		1846BAB31A136E8000ABC529 /* bn_fast_mp_invmod.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_fast_mp_invmod.c; sourceTree = "<group>"; };
@@ -565,7 +565,7 @@
 			children = (
 				1846BA6F1A136BCE00ABC529 /* Info.plist */,
 			);
-			name = "LibTomMath(iOS)";
+			path = "LibTomMath(iOS)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1035,7 +1035,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LibTomMath/Info.plist;
+				INFOPLIST_FILE = "LibTomMath(iOS)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1050,7 +1050,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LibTomMath/Info.plist;
+				INFOPLIST_FILE = "LibTomMath(iOS)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1120,6 +1120,7 @@
 				1846BA831A136BCE00ABC529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1846BBF61A1378DE00ABC529 /* Build configuration list for PBXNativeTarget "LibTomMath(OSX)" */ = {
 			isa = XCConfigurationList;
@@ -1128,6 +1129,7 @@
 				1846BBF81A1378DE00ABC529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
