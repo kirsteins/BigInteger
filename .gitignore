@@ -1,5 +1,8 @@
-# Xcode
+### Objective-C ###
+# OS X
 .DS_Store
+
+# Xcode
 build/
 *.pbxuser
 !default.pbxuser
@@ -9,13 +12,19 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-*.xcworkspace
-!default.xcworkspace
 xcuserdata
+*.xccheckout
 profile
 *.moved-aside
 DerivedData
-.idea/
-# Pods - for those of you who use CocoaPods
+*.hmap
+*.ipa
+
+# CocoaPods
 Pods
-*.playground/Results.playgrounddata
+
+### Xcode ###
+build
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcworkspace/contents.xcworkspacedata
