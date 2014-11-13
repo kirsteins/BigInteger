@@ -719,6 +719,7 @@
 				1846BAA91A136C8800ABC529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1846BAAA1A136C8800ABC529 /* Build configuration list for PBXNativeTarget "BigIntegerTests" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +728,7 @@
 				1846BAAC1A136C8800ABC529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1846BBD01A13765900ABC529 /* Build configuration list for PBXNativeTarget "BigInteger(OSX)" */ = {
 			isa = XCConfigurationList;
@@ -735,6 +737,7 @@
 				1846BBD21A13765900ABC529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1846BBD31A13765900ABC529 /* Build configuration list for PBXNativeTarget "BigInteger(OSX)Tests" */ = {
 			isa = XCConfigurationList;
@@ -743,6 +746,7 @@
 				1846BBD51A13765900ABC529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
