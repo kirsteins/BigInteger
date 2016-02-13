@@ -1,5 +1,5 @@
 # BigInteger.swift
-BigInteger.swift is a lightweight library that facilitates an easy way to work with big integers in Swift. Built on top of LibTomMath C library. Inspired by the Java's BigInteger, but a lot of syntatic sugar added.
+BigInteger.swift is a lightweight library that facilitates an easy way to work with big integers in Swift. Built on top of LibTomMath C library. Inspired by the Java's BigInteger, but a lot of syntactic sugar added.
 ## Example
 
 ``` swift
