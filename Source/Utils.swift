@@ -10,14 +10,17 @@ import Foundation
 
 struct Utils {
     static let base36Digits: String = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    static func canParseBigIntegerFromString(var string: String, withRadix radix: Int) -> Bool {
+    static func canParseBigIntegerFromString(_ string: String, withRadix radix: Int) -> Bool {
+        var string = string
         if string.hasPrefix("-") {
-            string.removeAtIndex(string.startIndex)
+            string.remove(at: string.startIndex)
         }
-        
-        let stringOfDigits = base36Digits.substringToIndex(advance(base36Digits.startIndex, radix))
-        let characterSet = NSCharacterSet(charactersInString: stringOfDigits).invertedSet
-        
-        return (string.rangeOfCharacterFromSet(characterSet) == nil)
+
+        let index = base36Digits.index(base36Digits.startIndex, offsetBy: radix)
+        let stringOfDigits = base36Digits.substring(to: index)
+
+        let characterSet = NSCharacterSet(charactersIn: stringOfDigits).inverted
+
+        return (string.rangeOfCharacter(from: characterSet) == nil)
     }
 }

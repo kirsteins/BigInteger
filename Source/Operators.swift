@@ -62,11 +62,11 @@ public func + (lhs: Int, rhs: BigInteger) -> BigInteger {
     return rhs.add(lhs)
 }
 
-public func += (inout lhs: BigInteger, rhs: BigInteger) {
+public func += (lhs: inout BigInteger, rhs: BigInteger) {
     lhs = lhs.add(rhs)
 }
 
-public func += (inout lhs: BigInteger, rhs: Int) {
+public func += (lhs: inout BigInteger, rhs: Int) {
     lhs = lhs.add(rhs)
 }
 
@@ -84,11 +84,11 @@ public func - (lhs: Int, rhs: BigInteger) -> BigInteger {
     return rhs.negate().add(lhs)
 }
 
-public func -= (inout lhs: BigInteger, rhs: BigInteger) {
+public func -= (lhs: inout BigInteger, rhs: BigInteger) {
     lhs = lhs.subtract(rhs)
 }
 
-public func -= (inout lhs: BigInteger, rhs: Int) {
+public func -= (lhs: inout BigInteger, rhs: Int) {
     lhs = lhs.subtract(rhs)
 }
 
@@ -106,11 +106,11 @@ public func * (lhs: Int, rhs: BigInteger) -> BigInteger {
     return rhs.multiplyBy(lhs)
 }
 
-public func *= (inout lhs: BigInteger, rhs: BigInteger) {
+public func *= (lhs: inout BigInteger, rhs: BigInteger) {
     lhs = lhs.multiplyBy(rhs)
 }
 
-public func *= (inout lhs: BigInteger, rhs: Int) {
+public func *= (lhs: inout BigInteger, rhs: Int) {
     lhs = lhs.multiplyBy(rhs)
 }
 
@@ -154,11 +154,11 @@ public func ^ (lhs: Int, rhs: BigInteger) -> BigInteger {
     return rhs.bitwiseXor(lhs)
 }
 
-public func ^= (inout lhs: BigInteger, rhs: BigInteger) {
+public func ^= (lhs: inout BigInteger, rhs: BigInteger) {
     lhs = lhs.bitwiseXor(rhs)
 }
 
-public func ^= (inout lhs: BigInteger, rhs: Int) {
+public func ^= (lhs: inout BigInteger, rhs: Int) {
     lhs = lhs.bitwiseXor(rhs)
 }
 
@@ -176,11 +176,11 @@ public func | (lhs: Int, rhs: BigInteger) -> BigInteger {
     return rhs.bitwiseOr(lhs)
 }
 
-public func |= (inout lhs: BigInteger, rhs: BigInteger) {
+public func |= (lhs: inout BigInteger, rhs: BigInteger) {
     lhs = lhs.bitwiseOr(rhs)
 }
 
-public func |= (inout lhs: BigInteger, rhs: Int) {
+public func |= (lhs: inout BigInteger, rhs: Int) {
     lhs = lhs.bitwiseOr(rhs)
 }
 
@@ -198,11 +198,11 @@ public func & (lhs: Int, rhs: BigInteger) -> BigInteger {
     return rhs.bitwiseAnd(lhs)
 }
 
-public func &= (inout lhs: BigInteger, rhs: BigInteger) {
+public func &= (lhs: inout BigInteger, rhs: BigInteger) {
     lhs = lhs.bitwiseAnd(rhs)
 }
 
-public func &= (inout lhs: BigInteger, rhs: Int) {
+public func &= (lhs: inout BigInteger, rhs: Int) {
     lhs = lhs.bitwiseAnd(rhs)
 }
 
@@ -212,7 +212,7 @@ public func << (lhs: BigInteger, rhs: Int32) -> BigInteger {
     return lhs.shiftLeft(rhs)
 }
 
-public func <<= (inout lhs: BigInteger, rhs: Int32) {
+public func <<= (lhs: inout BigInteger, rhs: Int32) {
     lhs = lhs.shiftLeft(rhs)
 }
 
@@ -222,6 +222,6 @@ public func >> (lhs: BigInteger, rhs: Int32) -> BigInteger {
     return lhs.shiftRight(rhs)
 }
 
-public func >>= (inout lhs: BigInteger, rhs: Int32) {
+public func >>= (lhs: inout BigInteger, rhs: Int32) {
     lhs = lhs.shiftRight(rhs)
 }
